@@ -1,0 +1,133 @@
+/*Wrap*/
+.column{
+width:1000px;
+margin:0 auto;
+/*transition*/
+-webkit-transition:all 1s;
+   -moz-transition:all 1s;
+     -o-transition:all 1s;
+        transition:all 1s;
+}
+
+/*Header*/
+.header{
+height:131px;
+}
+.logo{
+float:left;
+margin-top:30px;
+}
+.menu{
+float:right;
+margin-top:89px;
+}
+.nav-pills > li > a{
+height:15px;
+color:#7A7A7A;
+}
+.nav-pills > li > a:hover{
+border-bottom:2px solid #97DDEA;
+}
+.nav-pills > li > a:active{
+border-bottom:2px solid #97DDEA;
+}
+
+/*Slider Area*/
+.slider{
+background:url(img/slider-bg.jpg)no-repeat;
+height:250px;
+}
+.slider-content{
+width:401px;
+height:105px;
+background:#FFF;
+margin:0 auto;
+/*border-radius*/
+-webkit-border-radius:10px;
+   -moz-border-radius:10px;
+        border-radius:10px;
+/*box-shadow*/
+-webkit-box-shadow:0px 0px 10px;
+   -moz-box-shadow:0px 0px 10px;
+        box-shadow:0px 0px 10px;
+position:relative;
+padding:15px;
+top:50px;
+text-align:center;
+opacity:0.89;
+}
+
+/*Main Content*/
+.content{
+overflow:hidden;
+}
+.single-content{
+width:289px;
+padding:10px 22px;
+float:left;
+}
+.img-circle{
+}
+.cir1{
+background:#5094F2 url(img/cbg1.png)no-repeat center;
+width:150px;
+height:150px;
+}
+.cir2{
+background:#D94748 url(img/cbg2.png)no-repeat center;
+width:150px;
+height:150px;
+}
+.cir3{
+background:#EBBB11 url(img/cbg3.png)no-repeat center;
+width:150px;
+height:150px;
+}
+
+/*Parallax Effect Area*/
+.parallax{
+height:258px;
+background:url(img/parallax-bg.jpg)no-repeat;
+}
+.parallax h2{
+text-align:center;
+padding-top:105px;
+color:#fff;
+text-shadow:0px 0px 20px black;
+}
+
+/*Bottom Content Area*/
+.bottom-content{
+height:273px;
+overflow:hidden;
+}
+.bottom-content img{
+float:left;
+padding:10px;
+}
+
+/*Footer*/
+.footer{
+height:85px;
+border-top:1px solid #E3E3E3;
+padding:15px;
+}
+.copyright{
+float:left;
+}
+.footermenu{
+float:right;
+}
+.footermenu ul{
+list-style-type:none;
+}
+.footermenu li{
+float:left;
+margin-left:15px;
+}
+.footermenu a{
+color:#8C8C8C;
+}
+.footermenu a:hover{
+color:#005580;
+}
